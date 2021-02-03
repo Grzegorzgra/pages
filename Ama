@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<title> Ograj Amadeusza</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onload="odliczanie();">
+
+
+<div id="game"> 
+<div id="hero"></div>
+<div id="block"></div>
+</div>
+<script type="text/javascript" src="script/app.js"> </script>
+
+
+<div id="data" align="center"></div>
+<div id="czas" align="center"></div>
+<script type="text/javascript" src="script/timer.js"> </script>
+</body>
+</html>
