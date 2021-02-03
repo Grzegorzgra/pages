@@ -1,0 +1,53 @@
+#czas {
+  color: red;
+  font-size: 34px;
+  font-weight: bold;
+
+}
+
+#data {
+  color: green;
+  font-size: 34px;
+  font-weight: bold;
+  }
+  
+#game{
+	  margin: auto;
+	  width: 600px;
+	  height: 300px;
+	  border: 2px solid black; 
+  }
+  
+#hero{
+	  width: 30px;
+	  height: 60px;
+	  background-color: green;
+      position: relative;
+      top:240px;
+  }
+.animate
+ {
+	 animation: jump 500ms;
+ }
+ 
+#block{
+	  width: 25px;
+	  height: 25px;
+	  background-color: darkred; 
+	  position: relative;
+	  top:215px;
+	  left:575px;
+	  animation: block1 1s infinite linear;
+  }
+   
+@keyframes block1 {
+	0%{left:575px;}
+	100%{left: -1px;}
+}
+
+@keyframes jump {
+	0%{top:240px;}
+	30%{top:170px;}
+	70%{top:170px;}
+	100%{top:240px;}
+}
